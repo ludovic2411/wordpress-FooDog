@@ -1,0 +1,31 @@
+/* Partie footer */
+.footer-container{
+width: 100%;
+}
+.footer-container ul{
+  list-style: none;
+}
+.footer-navigation{
+  background-color: #3a3e43;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 55vh;
+}
+.footer-social{
+  background-color: #303336;
+}
+.instagram {
+  display: grid;
+  grid-column-gap: 0vw;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+.instagram li{
+  size:100%;
+  width: 5vw;
+}
+.instagram img{
+  text-align: center;
+  size:100%;
+  width: 5vw;
+}

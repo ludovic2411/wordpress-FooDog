@@ -6,6 +6,7 @@ La police à utiliser est [crimson text](https://fonts.google.com/specimen/Crims
 
 
 link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"
+
 Pour les icônes, utiliser [font-awesome](https://fontawesome.com/icons?d=gallery).
 
 

@@ -46,7 +46,9 @@
   margin-top: 8vh;
 }
 .sidebar span{
+  font-family: 'Raleway', sans-serif;
   float: right;
   margin-right: 0.8vw;
+  margin-top:0.5vh;
   letter-spacing: 0.05vw;
 }

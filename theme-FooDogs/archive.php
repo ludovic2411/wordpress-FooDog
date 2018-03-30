@@ -6,15 +6,9 @@
 
   while(have_posts()) : the_post();
 
-  the_content();
+  the_excerpt();
 
   endwhile;
-
-?>
-
-<?php else : ?> <h2>Oooopppsss...</h2> <p>Désolé, mais vous cherchez quelque chose qui ne se trouve pas ici .</p> <?php include (TEMPLATEPATH . "/searchform.php"); ?>
-
-<?php
 
   endif;
 

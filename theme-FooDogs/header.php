@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Les Grosses Teubes" />
-    <link rel="stylesheet" href="style.css"  type="text/css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 </head>
 <body>
 <header>
@@ -20,6 +20,14 @@
 				<li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
 				<li><a href="www.instagram.com"><i class="fab fa-instagram"></i></a></li>
 			</ul>
-        </div>
+		</div>
+		<div class="header-links">
+			<ul>
+				<li><a href="nutrition.php"></a></li>
+				<li><a href="wellness.php"></a></li>
+				<li><a href="lifestyle.php"></a></li>
+				<li><a href="community.php"></a></li>
+			</ul>
+		</div>
     </div>
 </header>

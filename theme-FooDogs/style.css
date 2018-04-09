@@ -1,3 +1,18 @@
+/*
+Theme Name: theme-FooDogs
+Theme URI:
+Author: Les Grosses Teubs
+Author URI:
+Description:A theme created in 2018 which is perfect for all dogs lovers.
+Version: 1.0
+License: Les Grosses Teubs all rights limited
+License URI: http://localhost:8888/wordpress/FooDogs/theme-FooDogs/index.php
+Text Domain: theme-FooDogs
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
 /* Partie footer */
 .footer-container{
 width: 100%;
@@ -97,4 +112,58 @@ margin-left: -3vw;
   padding-top: 18vh;
   text-align: center;
   color: #9c9d9d;
+}
+/* Partie 404 */
+.container-404{
+  width: 60%;
+  font-family: 'Crimson Text', serif;
+  margin-bottom: 14vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.title-404 h1{
+  margin-bottom: 3vh;
+  font-family: 'Raleway',sans-serif;
+  color: #4b4f54;
+  font-size: 16vh;
+  font-weight: bolder;
+}
+.title-404 p{
+  margin-top: 2.5vh;
+  font-size: 3vh;
+  font-weight: normal;
+  color: #b7b7b7;
+}
+.form-404{
+  margin-top: 4vh;
+}
+.inputs-404{
+  border:  solid #b7b7b7 0.5vh;
+  width: 100%;
+}
+.inputs-404:hover{
+  border:  solid black 0.5vh;
+}
+.inputs-404 .text{
+  font-size: 2vh;
+  border: none;
+  background: transparent;
+  height: 5vh;
+  width: 85%;
+  opacity: 0.5;
+}
+.inputs-404 .text:hover{
+  opacity:1;
+}
+.inputs-404 .submit{
+  height: 2vh;
+  background-image: url(../pictures/404-pictures/loupe.png);
+  background-size: cover;
+  border: none;
+  opacity: 0.5;
+  background-color: transparent;
+}
+.inputs-404 .submit:hover{
+  opacity:1;
 }

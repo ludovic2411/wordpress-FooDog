@@ -1,9 +1,10 @@
 <div class="content">
+  <h1>Coucou</h1>
 <?php get_header();
   if(have_posts()) :
   while(have_posts()) : the_post();
   the_content();
-  endwhile;
+endwhile;
 ?>
 <?php else : ?> <h2>Oooopppsss...</h2> <p>Désolé, mais vous cherchez quelque chose qui ne se trouve pas ici .</p>
  <?php include ("404.php"); ?>

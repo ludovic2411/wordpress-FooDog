@@ -35,7 +35,7 @@
         <ul class="instagram-title">
           <li><h3></h3></li>
         </ul>
-        <ul class="instagram">
+        <ul class="footer-instagram">
           <li><img class="left" class="item-1" src="" alt="cute dog"></li>
           <li><img class="center" class="item-2" src="" alt="cute dog"></li>
           <li><img class="right" class="item-3" src="" alt="cute dog"></li>

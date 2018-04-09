@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 </head>
 <body>
-<header>
+<header class="header">
     <div class="headertop">
 		<div class="header-title">
 			<h1>FooDog</h1>

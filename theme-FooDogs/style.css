@@ -12,7 +12,7 @@ Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-rea
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-
+/* Partie index (layout general) ************/
 /* Partie sidebar ***************/
 .sidebar{
   width: 23.9%;
@@ -25,37 +25,27 @@ Use it to make something cool, have fun, and share what you've learned with othe
   text-decoration: none;
   color: white;
 }
-.sidebar ul :hover{
+.sidebar li:hover{
   background-color: black;
 }
 .sidebar ul{
   list-style: none;
 }
+.sidebar li{
+  padding-top: 1.4vh;
+  height: 6vh;
+}
+.sidebar li p{
+  padding-left: 0.8vw;
+}
 .facebook{
   background-color: #899dce;
-  height: 6vh;
-}
-.facebook p{
-  padding-top: 1.6vh;
-  padding-left: 0.8vw;
 }
 .twitter{
-  margin-top: -1.4vh;
   background-color: #60d2f5;
-  height: 6vh;
-}
-.twitter p{
-  padding-top: 1.6vh;
-  padding-left: 0.8vw;
 }
 .instagram{
-  margin-top: -1.4vh;
   background-color: #709cbf;
-  height: 6vh;
-}
-.instagram p{
-  padding-top: 1.6vh;
-  padding-left: 0.8vw;
 }
 .sidebar-picture{
   margin-top: 8vh;
@@ -67,6 +57,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   margin-top:0.5vh;
   letter-spacing: 0.05vw;
 }
+
 /* Partie footer ************************************/
 .footer-container{
 width: 100%;
@@ -122,26 +113,26 @@ font-size: 1.8vh;
   color: white;
 }
 
-.instagram{
+.footer-instagram{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(3,1fr);
 }
-.instagram li{
+.footer-instagram li{
   size:100%;
   width: 8vw;
 }
-.instagram img{
+.footer-instagram img{
   size:100%;
   width: 8vw;
 }
-.instagram .left{
+.footer-instagram .left{
   margin-left: -1vw;
 }
-.instagram .center{
+.footer-instagram .center{
   margin-left: -2vw;
 }
-.instagram .right{
+.footer-instagram .right{
 margin-left: -3vw;
 }
 .footer-social ul{

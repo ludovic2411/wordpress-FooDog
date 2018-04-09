@@ -1,5 +1,4 @@
 <div class="content">
-  <h1>Coucou</h1>
 <?php get_header();
   if(have_posts()) :
   while(have_posts()) : the_post();

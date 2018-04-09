@@ -11,6 +11,7 @@
      <title></title>
    </head>
    <body>
+     <?php get_header(); ?>
      <section class="container-404">
        <div class="title-404">
      <h1>404</h1>

@@ -13,10 +13,20 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 /* Partie index (layout general) ************/
+.wrapper{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 110vh;
+  grid-template-areas:
+  "content sidebar";
+}
 /* Partie sidebar ***************/
 .sidebar{
-  width: 23.9%;
-  margin-right: 10vh;
+  height: 100%;
+  width: 113%;
   font-family: 'Crimson Text', serif;
   font-weight: bolder;
   font-size: 1.3vh;
@@ -25,7 +35,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   text-decoration: none;
   color: white;
 }
-.sidebar li:hover{
+.sidebar .sidebar-links li:hover{
   background-color: black;
 }
 .sidebar ul{
@@ -48,7 +58,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   background-color: #709cbf;
 }
 .sidebar-picture{
-  margin-top: 8vh;
+margin-left: -0.4vw;
 }
 .sidebar span{
   font-family: 'Raleway', sans-serif;
@@ -57,13 +67,124 @@ Use it to make something cool, have fun, and share what you've learned with othe
   margin-top:0.5vh;
   letter-spacing: 0.05vw;
 }
+/* Menu hamburger *********************************/
+.burger {
+  display: inline-block;
+  border: 0;
+  background: none;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  border-bottom: 4px solid currentColor;
+  width: 28px;
+  transition: border-bottom 1s ease-in-out;
+  -webkit-transition: border-bottom 1s ease-in-out;
+}
+.burger::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.burger:before {
+  content: "";
+  display: block;
+  border-bottom: 4px solid currentColor;
+  width: 100%;
+  margin-bottom: 5px;
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger:after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid currentColor;
+  width: 100%;
+  margin-bottom: 5px;
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger-check {
+  display: none;
+}
+.burger-check:checked ~ .burger {
+  border-bottom: 4px solid transparent;
+  transition: border-bottom 0.8s ease-in-out;
+  -webkit-transition: border-bottom 0.8s ease-in-out;
+}
+.burger-check:checked ~ .burger:before {
+  transform: rotate(-405deg) translateY(1px) translateX(-3px);
+  -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger-check:checked ~ .burger:after {
+  transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.navigation {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
+.burger-check:checked ~ .navigation {
+  max-height: 500px;
+  transition: max-height 0.5s ease-in-out;
+}
+.header-article {
+  background-color: floralwhite;
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  font-size: 30px;
+  text-align: centeR;
+}
+.header-article a{
+  color: inherit;
+}
+.header-article small {
+  font-size: 14px;
+}
+.header-article ul{
+  margin: 0;
+  padding: 0;
+}
+.header-article li{
+  list-style: none;
+  font-size: 25px;
+  padding: 5px 0;
+}
+.header-article li a {
+  text-decoration: none;
+}
+.header-article li a:hover {
+  text-decoration: underline;
+}
 
+/* Partie header de l'index **************************/
+.header{
+  width: 100%;
+  text-align: center;
+}
+.header ul{
+  list-style: none;
+}
+.header li{
+  display: inline;
+}
+.header a{
+  text-decoration: none;
+  color: #242424;
+}
+.header-social{
+  margin-top: -6vh;
+  float: right;
+}
 /* Partie footer ************************************/
 .footer-container{
-width: 100%;
-font-family: 'Crimson Text', serif;
-font-weight: bolder;
-font-size: 1.8vh;
+  width: 100%;
+  font-family: 'Crimson Text', serif;
+  font-weight: bolder;
+  font-size: 1.8vh;
 }
 .footer-container ul{
   list-style: none;

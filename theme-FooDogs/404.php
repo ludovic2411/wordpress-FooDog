@@ -1,17 +1,4 @@
-<?php
 
- ?>
- <!DOCTYPE html>
- <html lang="en" dir="ltr">
- <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
- <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Raleway" rel="stylesheet">
-   <head>
-     <meta charset="utf-8">
-     <title></title>
-   </head>
-   <body>
-     <?php get_header(); ?>
      <section class="container-404">
        <div class="title-404">
      <h1>404</h1>
@@ -26,6 +13,5 @@
           </form>
         </div>
    </section>
-   <?php get_footer(); ?>
    </body>
  </html>

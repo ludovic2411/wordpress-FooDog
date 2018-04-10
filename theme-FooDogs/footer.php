@@ -1,16 +1,4 @@
-<?php
 
- ?>
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
     <!-- retirer ce qui suit au dessus -->
     <!--le container reprend tout le footer -->
     <section class="footer-container">
@@ -36,15 +24,15 @@
           <li><h3></h3></li>
         </ul>
         <ul class="footer-instagram">
-          <li><img class="left" class="item-1" src="" alt="cute dog"></li>
-          <li><img class="center" class="item-2" src="" alt="cute dog"></li>
-          <li><img class="right" class="item-3" src="" alt="cute dog"></li>
-          <li><img class="left" class="item-4" src="" alt="cute dog"></li>
-          <li><img class="center" class="item-5" src="" alt="cute dog"></li>
-          <li><img class="right" class="item-6" src="" alt="cute dog"></li>
-          <li><img class="left" class="item-7" src="" alt="cute dog"></li>
-          <li><img class="center" class="item-8" src="" alt="cute dog"></li>
-          <li><img class="right" class="item-9" src="" alt="cute dog"></li>
+          <li><img class="left" class="item-1" src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/footer-pictures/item-1.jpg" alt="cute dog"></li>
+          <li><img class="center" class="item-2" src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/footer-pictures/item-2.jpg" alt="cute dog"></li>
+          <li><img class="right" class="item-3" src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/footer-pictures/item-3.jpg" alt="cute dog"></li>
+          <li><img class="left" class="item-4" src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/footer-pictures/item-4.jpg" alt="cute dog"></li>
+          <li><img class="center" class="item-5" src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/footer-pictures/item-5.jpg" alt="cute dog"></li>
+          <li><img class="right" class="item-6" src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/footer-pictures/item-6.jpg" alt="cute dog"></li>
+          <li><img class="left" class="item-7" src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/footer-pictures/item-7.jpg" alt="cute dog"></li>
+          <li><img class="center" class="item-8" src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/footer-pictures/item-8.jpg" alt="cute dog"></li>
+          <li><img class="right" class="item-9" src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/footer-pictures/item-9.jpg" alt="cute dog"></li>
         </ul>
       </div>
       </div>

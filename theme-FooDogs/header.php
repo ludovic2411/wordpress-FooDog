@@ -32,6 +32,7 @@
 				<li><a href="lifestyle.php">LIFESTYLE</a></li>
 				<li><a href="community.php">COMMUNITY</a></li>
 			</ul>
+      <hr>
 		</div>
     </div>
 </header>

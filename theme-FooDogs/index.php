@@ -7,7 +7,7 @@
   endwhile;
   ?>
 <?php else : ?>
-  <?php include ("404.php"); ?>
+  <?php include ("error.php"); ?>
   <?php
 endif;
 ?>

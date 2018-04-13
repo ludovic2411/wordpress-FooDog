@@ -1,31 +1,31 @@
-/* Partie sidebar */
-.sidebar{
-  width: 23.9%;
+/* Partie sidebar-article */
+.sidebar-article{
+  width: 100%;
   margin-right: 10vh;
   font-family: 'Crimson Text', serif;
   font-weight: bolder;
   font-size: 4vh;
   }
-.sidebar h3{
+.sidebar-article h3{
     font-family: 'Crimson Text', serif;
     font-weight: normal;
     font-size: 2vh;
   }
-.sidebar a{
+.sidebar-article a{
   text-decoration: none;
   color: white;
 }
-.sidebar i{
+.sidebar-article .sidebar-social-article i{
   size: 200%;
 }
-.sidebar .social  a:hover{
+.sidebar-article  a:hover{
   background-color: black;
   opacity: 0.5;
 }
-.sidebar ul{
+.sidebar-article ul{
   list-style: none;
 }
-.sidebar .social a{
+.sidebar-article .social-article a{
   margin-left: 1.5vw;
   text-align: center;
   display: inline-block;
@@ -44,6 +44,6 @@
 .instagram{
 
 }
-.sidebar-picture{
-  margin-top: 8vh;
+.sidebar-article .sidebar-picture{
+  margin-top: 4vh;
 }

@@ -23,7 +23,7 @@
   </ul>
   <ul class="sidebar-picture">
     <li class="sidebar-picture">
-      <p><a href="index.php"><img src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/sidebar-pictures/sidebar.jpg" alt=""></a></p></li>
+      <p><a href="index.php"><img src="https://raw.githubusercontent.com/ludovic2411/wordpress-FooDog/master/theme-FooDogs/pictures/sidebar-pictures/sidebar.jpg" alt="sidebar-picture"></a></p></li>
   </ul>
 </section>
 <!--La partie en dessous sera également à supprimer -->

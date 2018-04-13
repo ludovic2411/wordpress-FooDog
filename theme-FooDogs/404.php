@@ -1,4 +1,6 @@
-
+<?php include ('header-article.php'); ?>
+<section class="wrapper-singular">
+    <div class="content">
      <section class="container-404">
        <div class="title-404">
      <h1>404</h1>
@@ -12,6 +14,8 @@
           </div>
           </form>
         </div>
-   </section>
-   </body>
- </html>
+        </section>
+      </div>
+   <?php include ('sidebar-article.php'); ?>
+ </section>
+   <?php get_footer(); ?>

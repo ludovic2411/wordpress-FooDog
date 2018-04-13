@@ -23,6 +23,28 @@ Use it to make something cool, have fun, and share what you've learned with othe
   grid-template-areas:
   "content sidebar";
 }
+/* Layout singular *****/
+.wrapper-singular{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 110vh;
+  grid-template-areas:
+  "content sidebar-article";
+}
+.content{
+  overflow: scroll;
+}
+/* Les posts ****/
+.wrapper a{
+  text-decoration: none;
+  color:#4b4f54;
+}
+.wrapper a:hover{
+  color: orange;
+}
 /* Partie sidebar ***************/
 .sidebar{
   height: 100%;
@@ -60,6 +82,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .sidebar-picture{
 margin-left: -0.4vw;
 }
+.sidebar-picture img{
+  size:100%;
+}
 .sidebar span{
   font-family: 'Raleway', sans-serif;
   float: right;
@@ -67,8 +92,60 @@ margin-left: -0.4vw;
   margin-top:0.5vh;
   letter-spacing: 0.05vw;
 }
+/* Partie sidebar-article */
+.sidebar-article{
+  width: 100%;
+  margin-right: 10vh;
+  font-family: 'Crimson Text', serif;
+  font-weight: bolder;
+  font-size: 4vh;
+  }
+.sidebar-article h3{
+    font-family: 'Crimson Text', serif;
+    font-weight: normal;
+    font-size: 2vh;
+    margin-left: 4.8vw;
+  }
+.sidebar-article a{
+  text-decoration: none;
+  color: white;
+}
+.sidebar-article .sidebar-social-article i{
+  size: 200%;
+}
+.sidebar-article  a:hover{
+  background-color: black;
+  opacity: 0.5;
+}
+.sidebar-article ul{
+  list-style: none;
+}
+.sidebar-article .social-article a{
+  margin-left: 1vw;
+  text-align: center;
+  display: inline-block;
+  background-color: #555555;
+  color: white;
+  width: 20px;
+  padding: 0 10px;
+  border-radius: 100%;
+  opacity: 1;
+}
+.facebook{
+}
+.twitter{
+
+}
+.instagram{
+
+}
+.sidebar-article .sidebar-picture{
+  margin-top: 4vh;
+}
 /* Menu hamburger *********************************/
 .burger {
+  margin-top: 10vh;
+  color:#4b4f54;
   display: inline-block;
   border: 0;
   background: none;
@@ -131,32 +208,45 @@ margin-left: -0.4vw;
   max-height: 500px;
   transition: max-height 0.5s ease-in-out;
 }
-.header-article {
-  background-color: floralwhite;
+.navigation{
+  padding-left: 2vw;
   font-family: 'Libre Baskerville', serif;
   font-style: italic;
   font-size: 30px;
-  text-align: centeR;
+  text-align: left;
+  width: 10%;
+  padding-top: 2.5vh;
+  paddin
 }
-.header-article a{
+.navigation .social ul{
+
+}
+.navigation .social li{
+  display: inline;
+}
+.navigation a{
   color: inherit;
 }
-.header-article small {
+.navigation small {
   font-size: 14px;
 }
-.header-article ul{
+.navigation ul{
   margin: 0;
   padding: 0;
 }
-.header-article li{
+.navigation .nav-burger ul{
+margin-top: 5vh;
+}
+.navigation .nav-burger li{
   list-style: none;
+  display: block;
   font-size: 25px;
   padding: 5px 0;
 }
-.header-article li a {
+.navigation li a {
   text-decoration: none;
 }
-.header-article li a:hover {
+.navigation li a:hover {
   text-decoration: underline;
 }
 
@@ -202,7 +292,9 @@ margin-left: -0.4vw;
 }
 /* Partie footer ************************************/
 .footer-container{
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   font-family: 'Crimson Text', serif;
   font-weight: bolder;
   font-size: 1.8vh;
@@ -222,7 +314,7 @@ margin-left: -0.4vw;
 .footer-social{
   margin-top: -1.8vh;
   background-color: #303336;
-  height: 25vh;
+  height: 20vh;
 }
 .footer-categories a{
   text-decoration: none;

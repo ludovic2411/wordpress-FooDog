@@ -25,4 +25,4 @@ endif;
 </div>
 <?php get_sidebar(); ?>
 </section>
- <?php get_footer(); ?>
+ <?php include('footer.php'); ?>

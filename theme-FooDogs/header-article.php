@@ -20,5 +20,6 @@
                 <li><a href="http://127.0.0.1:10080/wordpress/category/wellness/">Wellness</a></li>
             </ul>
         </nav>
+        <h1>FooDogs</h1>
 </head>
 </html>
